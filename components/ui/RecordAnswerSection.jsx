@@ -74,7 +74,6 @@ function RecordAnswerSection({mockInterviewQuestion, activeQuestionIndex, interv
         if(resp){
             toast('User Answer Recorded Successfully');
             setUserAnswer('');
-            setResults([])
         }
         setResults([])
         setLoading(false);
